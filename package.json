@@ -1,0 +1,41 @@
+{
+  "name": "dblog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@coinbase/wallet-sdk": "^3.0.8",
+    "@emotion/css": "^11.9.0",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@nomiclabs/hardhat-ethers": "^2.0.0",
+    "@nomiclabs/hardhat-waffle": "^2.0.0",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@walletconnect/web3-provider": "^1.7.7",
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.0",
+    "easymde": "^2.16.1",
+    "eslint": "8.13.0",
+    "eslint-config-next": "12.1.5",
+    "ethereum-waffle": "^3.0.0",
+    "ethers": "^5.0.0",
+    "framer-motion": "^6.3.0",
+    "hardhat": "^2.9.3",
+    "ipfs-http-client": "^56.0.2",
+    "react-markdown": "^8.0.2",
+    "react-simplemde-editor": "^5.0.2",
+    "web3modal": "^1.9.7"
+  }
+}

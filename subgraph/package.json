@@ -1,0 +1,16 @@
+{
+  "name": "dblog",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ hangleang/dblog",
+    "create-local": "graph create --node http://localhost:8020/ hangleang/dblog",
+    "remove-local": "graph remove --node http://localhost:8020/ hangleang/dblog",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 hangleang/dblog"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.29.0",
+    "@graphprotocol/graph-ts": "0.26.0"
+  }
+}

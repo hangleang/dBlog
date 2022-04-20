@@ -1,0 +1,18 @@
+type Post @entity {
+  id: ID!
+  title: String!
+  contentHash: String!
+  publisher: String!
+  published: Boolean!
+  content: String!
+  createdAt: BigInt!
+  updatedAt: BigInt!
+}
+
+type _Schema_
+  @fulltext(
+    name: "postSearch"
+    language: en,
+    algorithm: rank,
+    include: [{ entity: "Post", fields: [{ name: "title" }, { name: "content" }] }]
+  )
